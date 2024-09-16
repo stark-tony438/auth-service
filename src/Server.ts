@@ -8,8 +8,8 @@ import * as cors from "cors";
 import IConfig from "./config/IConfig";
 
 //cluster method
-import * as cluster from 'cluster';
-import * as os from 'os';
+// import * as cluster from 'cluster';
+// import * as os from 'os';
 
 
 export default class Server {
@@ -33,16 +33,16 @@ export default class Server {
   };
 
   run = () => {
-    if (cluster.isMaster) {
-      console.log(`Master ${process.pid} is running`);
-      const numCPUs = os.cpus().length;
-      for (let i = 0; i < numCPUs; i++) {
-        cluster.fork();
-      }
-      cluster.on('exit', (worker, code, signal) => {
-        console.log(`worker ${worker.process.pid} died`);
-      });
-    } else {
+    // if (cluster.isMaster) {
+    //   console.log(`Master ${process.pid} is running`);
+    //   const numCPUs = os.cpus().length;
+    //   for (let i = 0; i < numCPUs; i++) {
+    //     cluster.fork();
+    //   }
+    //   cluster.on('exit', (worker, code, signal) => {
+    //     console.log(`worker ${worker.process.pid} died`);
+    //   });
+    // } else {
       const {
         app,
         config: { PORT: port, MONGO_URL: mongoUrl },
@@ -56,7 +56,7 @@ export default class Server {
         console.log('ERROR');
         console.log(err);
       });
-    }
+    // }
   };
 
   setUpRoutes = (): Server => {
