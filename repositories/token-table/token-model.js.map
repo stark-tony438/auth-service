@@ -1,0 +1,1 @@
+{"version":3,"file":"token-model.js","sourceRoot":"","sources":["../../../src/repositories/token-table/token-model.ts"],"names":[],"mappings":";;;AAAA,qCAAqC;AAErC,iDAAyC;AAE5B,QAAA,WAAW,GAAG,IAAI,sBAAW,CAAC;IACvC,UAAU,EAAE,OAAO;CACtB,CAAC,CAAC;AAEU,QAAA,UAAU,GAA+B,QAAQ,CAAC,KAAK,CAChE,OAAO,EAAE,mBAAW,EAAE,OAAO,CAAC,CAAC"}

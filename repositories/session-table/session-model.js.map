@@ -1,0 +1,1 @@
+{"version":3,"file":"session-model.js","sourceRoot":"","sources":["../../../src/repositories/session-table/session-model.ts"],"names":[],"mappings":";;;AAAA,qCAAqC;AAErC,qDAA6C;AAEhC,QAAA,aAAa,GAAG,IAAI,wBAAa,CAAC;IAC3C,UAAU,EAAE,UAAU;CACzB,CAAC,CAAC;AAEU,QAAA,YAAY,GAAkC,QAAQ,CAAC,KAAK,CACrE,UAAU,EAAE,qBAAa,EAAE,UAAU,CAAC,CAAC"}

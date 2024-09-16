@@ -1,0 +1,1 @@
+{"version":3,"file":"reset-schema.js","sourceRoot":"","sources":["../../../src/repositories/password-reset/reset-schema.ts"],"names":[],"mappings":";;AAAA,wEAAiE;AACjE,MAAqB,mBAAoB,SAAQ,uBAAa;IAC1D,YAAY,OAAO;QACf,MAAM,mBAAmB,GAAG;YACxB,EAAE,EAAE,MAAM;YACV,MAAM,EAAE,MAAM;YACd,YAAY,EAAE,MAAM;SACvB,CAAA;QACF,KAAK,CAAC,mBAAmB,EAAE,OAAO,CAAE,CAAC;IACxC,CAAC;CACJ;AATD,sCASC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"token-schema.js","sourceRoot":"","sources":["../../../src/repositories/roles/token-schema.ts"],"names":[],"mappings":";;AAAA,wEAAiE;AACjE,MAAqB,WAAY,SAAQ,uBAAa;IAClD,YAAY,OAAO;QACnB,MAAM,WAAW,GAAG;YACjB,EAAE,EAAE,MAAM;YACV,MAAM,EAAG,MAAM;YACf,YAAY,EAAE,MAAM;YACpB,GAAG,EAAE,MAAM;SACX,CAAA;QACA,KAAK,CAAC,WAAW,EAAE,OAAO,CAAE,CAAC;IAChC,CAAC;CACJ;AAVD,8BAUC"}
